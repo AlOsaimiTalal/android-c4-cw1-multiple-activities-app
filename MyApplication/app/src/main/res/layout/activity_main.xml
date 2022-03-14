@@ -10,30 +10,31 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/YourName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="87dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="93dp"
         android:ems="10"
         android:hint="الاسم"
         android:inputType="textPersonName"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/YourAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_below="@+id/YourName"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="89dp"
         android:ems="10"
         android:hint="العمر"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textSize="20dp" />
 
     <TextView
@@ -42,17 +43,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="20dp"
         android:text="اسم البرنامج"
+        android:textColor="#000000"
         android:textSize="32dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/transferring"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="129dp"
+        android:layout_marginBottom="75dp"
         android:text="التالي"
         android:textSize="22dp" />
 
@@ -62,18 +64,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="267dp"
-        android:layout_marginEnd="41dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="39dp"
         android:text="الرجاء ادخال البينات التالية :"
+        android:textColor="#000000"
         android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/ER"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:textColor="#FF0000" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="93dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="1dp"
+        app:srcCompat="@drawable/paci" />
 
 </RelativeLayout>
